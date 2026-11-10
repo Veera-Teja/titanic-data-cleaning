@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project focuses on cleaning and preprocessing the Titanic dataset using Python.
+This project focuses on cleaning and preprocessing the Titanic dataset using Python and Pandas.
 
-The main objective is to prepare raw data for further analysis by identifying and handling missing values and improving data quality.
+The main objective is to identify missing values, handle incomplete data, remove duplicate records and prepare the dataset for further analysis.
 
 ## Internship
 
@@ -14,63 +14,43 @@ Completed as part of a Data Analytics Internship.
 
 - Python
 - Pandas
-- NumPy
 - Jupyter Notebook
 
-## Project Objectives
+## Dataset
 
-- Understand the Titanic dataset.
-- Identify missing values.
-- Perform data cleaning.
-- Handle duplicate and inconsistent records where applicable.
-- Prepare the dataset for further analysis.
+Titanic Dataset
 
-## Project Workflow
+Source:
+https://github.com/datasciencedojo/datasets
 
-1. Import required Python libraries.
-2. Load the Titanic dataset.
-3. Explore the dataset.
-4. Identify missing values.
-5. Perform data cleaning and preprocessing.
-6. Review the cleaned dataset.
+## Data Cleaning Operations
+
+1. Loaded the Titanic dataset using Pandas.
+2. Explored the dataset using head() and info().
+3. Identified missing values.
+4. Replaced missing Age values using the mean.
+5. Replaced missing Embarked values using the mode.
+6. Removed duplicate records.
+7. Renamed Sex column to Gender.
+8. Exported the cleaned dataset as a CSV file.
 
 ## Project Files
 
-| File | Description |
-|---|---|
-| Titanic_Data_Cleaning.ipynb | Jupyter Notebook containing the Python implementation |
-| Output-1.png | Project screenshot |
-| Output-2.png | Project screenshot |
+- Titanic_Data_Cleaning.ipynb
+- Task1-1.png
+- Task1-2.png
 
-## How to Run
+## Output
 
-1. Clone this repository.
-
-```bash
-git clone https://github.com/Veera-Teja/titanic-data-cleaning.git
-```
-
-2. Open the project folder.
-3. Install the required libraries.
-
-```bash
-pip install pandas numpy jupyter
-```
-
-4. Launch Jupyter Notebook.
-
-```bash
-jupyter notebook
-```
-
-5. Open Titanic_Data_Cleaning.ipynb and run the cells.
+cleaned_titanic.csv
 
 ## Conclusion
 
-This project provided practical experience in data cleaning and preprocessing using Python. It helped develop an understanding of dataset exploration and data preparation techniques.
+This project provided practical experience in data cleaning and preprocessing using Python. It helped develop an understanding of missing-value handling, duplicate removal and dataset preparation.
 
 ## Author
 
 Komali Veerateja
 
-GitHub: https://github.com/Veera-Teja
+GitHub:
+https://github.com/Veera-Teja
