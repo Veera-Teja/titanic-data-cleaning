@@ -39,15 +39,15 @@ Completed as part of a Data Analytics Internship.
 | File | Description |
 |---|---|
 | Titanic_Data_Cleaning.ipynb | Jupyter Notebook containing the Python implementation |
-| Output1.png | Project screenshot |
-| Output2.png | Project screenshot |
+| Output-1.png | Project screenshot |
+| Output-2.png | Project screenshot |
 
 ## How to Run
 
 1. Clone this repository.
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Veera-Teja/titanic-data-cleaning.git
 ```
 
 2. Open the project folder.
